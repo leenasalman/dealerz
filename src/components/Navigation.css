@@ -1,0 +1,22 @@
+.navigation {
+  padding: 25px 0px 21px 0px;
+  background-color: var(--base-color-white);
+}
+.navigation .icons-container {
+  text-align: end;
+}
+.navigation .icons-container .icons-container__icon {
+  display: inline-block;
+  padding: 7px;
+}
+.navigation .icons-container .icons-container__icon > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #11142d;
+  text-decoration: none;
+}
+.navigation .icons-container .icons-container__icon > a p {
+  margin-bottom: 0;
+  margin-left: 10px;
+}

@@ -6,6 +6,7 @@ import Gallery from "./components/pages/Gallery";
 import Cart from "./components/pages/Cart";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+
 function App() {
   return (
     <>

@@ -1,0 +1,111 @@
+.premium-collection {
+  padding: 120px 0;
+}
+.secondary-title .secondary-title__text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: var(--text-color-title);
+  width: 100%;
+  text-align: center;
+}
+.premium-collection .products-collection-bar {
+  display: flex;
+  justify-content: space-around;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin: 3rem 0;
+  padding-bottom: 10px;
+}
+.premium-collection .products-collection-bar .products-collection-bar__item {
+  font-style: normal;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  text-transform: capitalize;
+  color: var(--text-color-body-2);
+}
+.premium-collection .products-collection-bar .products-collection-bar__item.current-item {
+  color: var(--button-color-orange);
+}
+.premium-collection .products-collection-bar::-webkit-scrollbar {
+  height: 6px;
+  background: #e5e5e5;
+  border-radius: 50px;
+}
+/* Track */
+.premium-collection .products-collection-bar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+.premium-collection .products-collection-bar::-webkit-scrollbar-thumb {
+  background: #888;
+}
+/* Handle on hover */
+.premium-collection .products-collection-bar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.premium-collection .products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+}
+.premium-collection .products-list .product-card {
+  width: 350px;
+  margin: 0 8px 16px 8px;
+  background-color: var(--system-background-primary);
+}
+.premium-collection .products-list .product-card .product-card__image {
+  height: 480px;
+  width: 100%;
+}
+.premium-collection .products-list .product-card img {
+  width: 100%;
+  height: 100%;
+}
+.premium-collection
+  .products-list
+  .product-card
+  .product-card__body {
+    padding: 40px;
+  }
+.premium-collection
+  .products-list
+  .product-card
+  .product-card__body
+  .product-card__subtitle {
+  font-style: normal;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: var(--text-color-body-2);
+}
+.premium-collection
+  .products-list
+  .product-card
+  .product-card__body
+  .product-card__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: var(--text-color-title);
+}
+.premium-collection
+  .products-list
+  .product-card
+  .product-card__body
+  .product-card__btn {
+  background: #f86338;
+  border-radius: 28px;
+  color: var(--text-link-color-white);
+  margin-top: 32px;
+}

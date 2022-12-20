@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import Navigation from "../Navigation";
+import PrimaryNav from "../PrimaryNav";
+import HeroSection from "../HeroSection";
 
 function Shop() {
   return (
-    <div>Shop</div>
-  )
+    <>
+      <Navigation />
+      <PrimaryNav />
+      <HeroSection />
+    </>
+  );
 }
 
-export default Shop
+export default Shop;

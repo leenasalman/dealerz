@@ -1,0 +1,42 @@
+.hero-section {
+  height: 100vh;
+  background-color: var(--system-background-primary);
+  background-image: url(../Assets/Images/mask-group.png);
+}
+.btn.primary-btn {
+  padding: 18px 24px;
+  background-color: var(--button-color-orange);
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: var(--text-link-color-white);
+}
+.hero-section__main-text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.hero-section__main-text h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 120%;
+  letter-spacing: 0.003em;
+  color: var(--text-color-title);
+  margin-bottom: 32px;
+}
+.hero-section__main-text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0.005em;
+  color: var(--text-color-body-1);
+  margin-bottom: 56px;
+}
